@@ -1,0 +1,31 @@
+.list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.icon.check {
+    background-color: #00A365;
+}
+.icon.cancel {
+    background-color: #EB5757;
+}
+span.icon {
+    color: #fff;
+    font-size: 8px;
+}
+.list__item_text {
+    font-family: 'Shopify Sans Web Medium';
+    width: calc(95.9% - 24px);
+    margin-left: 24px;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #283239;
+}

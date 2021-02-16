@@ -1,0 +1,102 @@
+.s_3 {
+    margin-top: 13.8rem;
+}
+.s_3 .container {
+    padding: 0 6.944%;
+}
+.s_3 .row {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -16.19%;
+}
+.s_3 .section__name,
+.s_3 .section__title,
+.s_3 .section__text {
+    text-align: left;
+    width: 770px;
+}
+.s_3 .section__title {
+    margin-bottom: 3.2rem;
+}
+.s_3 .section__text {
+    margin-bottom: 7.5rem;
+    color: #526675;
+}
+.c_9__card {
+    width: 48.45%;
+    background-color: #283239;
+    border-radius: 1.6rem 1.6rem 0 1.6rem;
+}
+.c_9__card .card__header {
+    border-radius: 1.6rem 1.6rem 0 0;
+    position: relative;
+    padding-top: 71.06%;
+    background-size: cover;
+    background-position: center;
+}
+.c_9__card img {
+    position: absolute;
+    z-index: 2;
+    width: 38.89%;
+}
+.c_9__card:first-child .card__header {
+    background-image: url("../../assets/imgs/case_study/card_img_1.jpg");
+}
+.c_9__card:first-child img {
+    top: 0;
+    left: 0;
+}
+.c_9__card:last-child .card__header {
+    background-image: url("../../assets/imgs/case_study/card_img_2.jpg");
+}
+.c_9__card:last-child img {
+    bottom: 0;
+    right: 0;
+}
+.c_9__card .card__body {
+    padding: 11.28% 11.7% 12.34%;
+}
+.c_9__card .card__title  {
+    color: #FFBE0A;
+    font-family: 'Shopify Sans Web Bold';
+    font-size: 2.4rem;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin-bottom: 3.4%;
+}
+.c_9__card .card__text {
+    font-family: 'Shopify Sans Web Regular';
+    font-size: 1.6rem;
+    line-height: 187%;
+    letter-spacing: 0.01em;
+    color: #8197A7;
+}
+@media screen and (max-width: 1100px) {
+    .s_3 .container {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .s_3 .section__name,
+    .s_3 .section__title,
+    .s_3 .section__text {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .s_3 .row {
+       flex-direction: column;
+        align-items: center;
+    }
+    .c_9__card {
+        width: 80%;
+    }
+    .c_9__card:first-child {
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .c_9__card {
+        width: 312px;
+    }
+}

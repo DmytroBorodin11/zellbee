@@ -1,0 +1,17 @@
+.main__btn {
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shopify Sans Web Bold';
+    font-size: 1.8rem;
+    padding: 1.8rem 2.4rem;
+    color: #283239;
+    background: #fff;
+    border-radius: 16px 16px 0px 16px;
+}
+.main__btn span {
+    color: #FFBE0A;
+    font-size: 1.2rem;
+    margin-left: 1.6rem;
+}

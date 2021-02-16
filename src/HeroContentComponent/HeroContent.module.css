@@ -1,0 +1,377 @@
+.title {
+    font-size: 2.4rem;
+    letter-spacing: 0.01em;
+    color: #283239;
+}
+.subtitle {
+    font-size: 1.2rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.01em;
+    color: #283239;
+    opacity: 0.7;
+    margin-bottom: 0.8rem;
+}
+.grid__box {
+    display: flex;
+    width: calc(100% + 1.6rem);
+    margin:0 -0.4rem;
+}
+.box__1 {
+    width: 60.74%;
+}
+.box__2 {
+    width: calc(38.52% + 0.2rem);
+    margin: 0 0.4rem;
+}
+.box__2 .grid__item {
+    margin: 0.8rem 0;
+}
+.box__3 {
+    display: flex;
+    justify-content: space-between;
+}
+.grid__item {
+    margin: 0.8rem 0.4rem;
+}
+.grid__item .block {
+    display: flex;
+    justify-content: space-between;
+    padding: 13% 10.26%;
+    background: #FFFAF5;
+    box-shadow: 0px 2.4rem 3.6rem rgba(250, 129, 0, 0.16);
+    border-radius: 1.6rem;
+}
+.grid__item__number {
+    font-size: 3.2rem;
+    font-family: 'Shopify Sans Web Bold';
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #283239;
+}
+.grid__item__title {
+    font-family: 'Shopify Sans Web Bold';
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #526675;
+}
+/*Grid__item_1*/
+
+.grid__item_1 {
+    width: 50%;
+    margin-bottom: 0;
+}
+.grid__item_1 img {
+    width: 25.6%;
+}
+
+/*Grid__item_3*/
+
+.grid__item_3 .block {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11% 10.26%;
+}
+.grid__item_3 .block .text__block {
+    margin-bottom: 4.8%;
+}
+.grid__item_3 img {
+    width: 25.6%;
+    margin: 4.8% 0 2.8rem;
+}
+
+/*Grid__item_4*/
+
+.grid__item_4 .block {
+    align-items: center;
+    padding: 8.54% 10.26%;
+}
+.grid__item_4 .text__block {
+    width: 50%;
+}
+.grid__item_4 img {
+    width: 41.2%;
+}
+.grid__item_4 .grid__item__title {
+    margin-bottom: 1.6rem;
+}
+.legend__text {
+    margin-bottom: 0.4rem;
+    font-family: 'Shopify Sans Web Bold';
+    font-size: 1.6rem;
+    letter-spacing: 0.01em;
+    color: #283239;
+}
+.legend__bar {
+    display: block;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+.bar1 {
+    width: 23.5%;
+    background-color: #FA8100;;
+}
+.bar2 {
+    width: 35.3%;
+    background-color: #00704B;
+}
+.bar3 {
+    width: 11.76%;
+    background-color: #FFBE0A;
+}
+
+/*Grid__item_5*/
+.grid__item_5 {
+    width: 84.6%;
+}
+.grid__item_5 img {
+    width: 77%;
+}
+.grid__item_5 .block {
+    padding: 0;
+    flex-direction: column;
+}
+.grid__item.grid__item_5 .block {
+    box-shadow: 0px 32px 36px rgba(129, 151, 167, 0.34);
+}
+.grid__item_5 .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13% 10%;
+    background-color: #FFBE0A;
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
+}
+.grid__item_5 .body {
+    padding: 10%;
+    border-bottom-left-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.01em;
+    color: #283239;
+}
+.body__title {
+    font-family: 'Shopify Sans Web Regular';
+    margin-bottom: 1.2rem;
+}
+.price__block {
+    width: 100%;
+    margin-bottom: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price__block .legend__block {
+    width: 54%;
+}
+.legend__block .legend__bar {
+    background-color: #8197A7;
+}
+.legend__block .bar1 {
+    width: 100%;
+}
+.legend__block .bar2 {
+    width: 35.53%;
+}
+.price {
+    font-family: 'Shopify Sans Web Medium';
+    font-size: 1.4rem;
+    letter-spacing: 0.01em;
+    color: #283239;
+}
+/*Grid__item_6*/
+
+.grid__item_6 .grid__item__title{
+    margin-left: -1rem;
+}
+.grid__item_6 img {
+    width: 100%;
+}
+.grid__item_6 .block {
+    padding: 6.0% 12.26%;
+    flex-direction: column;
+    position: relative;
+    background: rgba(255, 250, 245, 0.8);
+    box-shadow: 0px 32px 36px rgba(129, 151, 167, 0.34);
+}
+.grid__item.grid__item_6 .block {
+    box-shadow: 0px 32px 36px rgba(129, 151, 167, 0.34);
+}
+.grid__item_6 .price__block {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.grid__item_6 .price__text {
+    font-family: 'Shopify Sans Web Bold';
+    font-size: 2.4rem;
+    letter-spacing: 0.01em;
+    color: #283239;
+}
+.price__subtext {
+    font-family: 'Shopify Sans Web Regular';
+    font-size: 9px;
+    letter-spacing: 0.01em;
+    color: #FFBE0A;
+}
+.footer {
+    margin-top: 1.2rem;
+    padding: 1rem 1.2rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(40, 50, 57, 0.2);
+}
+.footer__text {
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    color: #283239;
+}
+
+/*icons*/
+
+.icon_1, .icon_2, .icon_3, .icon_4 {
+    position: absolute;
+}
+.icon__block {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+}
+.icon__block img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon_1 {
+    top: 36.7%;
+    left: -12%;
+    width: 10.6%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 3.2rem 3.6rem rgba(129, 151, 167, 0.24);
+}
+.icon_1 img {
+    width: 32.26%;
+}
+.icon_2 {
+    top: 72.92%;
+    left: -1.87%;
+    transform: translateX(-50%);
+    width: 12.27%;
+    border-radius: 1.6rem;
+    background-color: #fff;
+    box-shadow: 0px 4.8rem 3.6rem rgba(129, 151, 167, 0.38);
+}
+.icon_2 img {
+    width: 36.1%;
+}
+.icon_3 {
+    top: 0;
+    left:32.7%;
+    transform: translateY(-40%);
+    width: 15.33%;
+    border-radius: 1.6rem;
+    background-color: #6772E5;
+    box-shadow: 0px 4.8rem 3.6rem rgba(129, 151, 167, 0.38);
+}
+.icon_3 .icon__block {
+    padding-top: 89%;
+}
+.icon_3 img {
+    width: 57%;
+}
+.icon_4 {
+    top: 0%;
+    left: 62.35%;
+    transform: translateY(-50%);
+    width: 12.11%;
+    border-radius: 50%;
+    background-color: #FFA358;
+    box-shadow: 0px 3.2rem 3.6rem rgba(129, 151, 167, 0.24);
+}
+.icon_4 img {
+    width: 51.43%;
+}
+@media screen and (max-width: 1439px) {
+    .hero__block_wrap {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .icon_2, .icon_3 {
+        border-radius: 1.2rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .hero__block_wrap .block__2 {
+        padding: 4.84% 4.76% 4.84% 0;
+    }
+    .grid__item_1 img {
+        width: 20.6%;
+    }
+    .grid__item__number {
+        font-size: 1.6rem;
+        margin-bottom: 0.4rem;
+    }
+    .grid__item__title {
+        font-size: 0.5rem;
+    }
+    .legend__bar {
+        height: 0.2rem;
+        border-radius: 0.1rem;
+        margin-bottom: 0.5rem;
+    }
+    .grid__item .block {
+        box-shadow: 0px 1.4rem 1.6rem rgba(250, 129, 0, 0.16);
+        border-radius: 1rem;
+    }
+    .grid__item_3 img {
+        width: 25.6%;
+        margin: 4.8% 0 1.2rem;
+    }
+    .legend__text {
+        font-size: 1.2rem;
+    }
+    .grid__item_5 .header {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .grid__item_5 .body {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    .price {
+        font-size: 1rem;
+    }
+    .body__title {
+        margin-bottom: 0.8rem;
+    }
+    .grid__item_6 .price__text {
+        font-family: 'Shopify Sans Web Bold';
+        font-size: 1.4rem;
+    }
+    .price__subtext {
+        font-family: 'Shopify Sans Web Regular';
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .body__title {
+       font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+

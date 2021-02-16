@@ -1,0 +1,135 @@
+.header__wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+header {
+    width: 100%;
+    background: transparent;
+}
+.header__row {
+    width: 100%;
+    padding-top: 5.5rem;
+    height: 11.1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo__block {
+    display: flex;
+    align-self: center;
+}
+.logo__hex {
+    width: 32px;
+}
+.logo {
+    width: 100px;
+    margin-left: 16px;
+}
+nav {
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    align-items: center;
+}
+.header__link {
+    font-family: 'Shopify Sans Web Bold';
+    font-size: 1.8rem;
+    color: #FFFAF5;
+    margin-left: 4.5rem;
+}
+.burger {
+    width: 32px;
+    height: 24px;
+    cursor:pointer;
+    display: none;
+}
+.burger__btn {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.burger__btn:before, .burger__btn:after, .burger__btn span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: #283239;
+    transition: all 0.3s ease;
+}
+.burger__btn:before, .burger__btn:after {
+    content: '';
+}
+.burger__btn span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.burger__btn.active span{
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+}
+.burger__btn.active:before, .burger__btn.active:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 110%;
+    transform: translateY(-50%);
+}
+.burger__btn.active:before {
+    transform: rotate(-45deg);
+}
+.burger__btn.active:after {
+    transform: rotate(45deg);
+}
+@media screen and (max-width: 767px) {
+    .header__row {
+        position: relative;
+    }
+    nav {
+        position: absolute;
+        bottom: -1.5rem;
+        transform: translateY(100%);
+        width: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        transition: all 0.3s ease;
+        border-radius: 0.8rem;
+        background-color:  #005236;
+    }
+    nav .header__link{
+        display: none;
+    }
+    nav.active {
+        height: 20rem;
+    }
+    nav.active .header__link{
+        display: block;
+    }
+    .header__link {
+        font-size: 2.2rem;
+        margin: 2rem 0;
+    }
+    .burger {
+        display: block;
+        align-self: center;
+        justify-self: flex-end;
+    }
+}
+@media screen and (max-width: 575px) {
+    .header__row {
+        padding-top: 3rem;
+        height: 4rem;
+    }
+    nav {
+        bottom: -3.5rem;
+    }
+}
